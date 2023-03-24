@@ -45,7 +45,18 @@ public class Barajas {
                 }
 
             }
-        
+         //• barajar(): cambia de posición todas las cartas aleatoriamente.
+            public void bajar(){
+                Collections.shuffle(cartas, random);
+                
+            }
+//            • siguienteCarta(): devuelve la siguiente carta que está en la baraja, cuando no haya más o
+//se haya llegado al final, se indica al usuario que no hay más cartas.
+//          
+            public void siguienteCarta(){
+                
+            }
+            }
         
     
     
